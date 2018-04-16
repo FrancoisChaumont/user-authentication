@@ -1,5 +1,5 @@
 # User authentication - authenticate a user
-PHP library to authenticate users verifying their credentials stored in a database.
+PHP library to authenticate users verifying their credentials stored in a database.  
 This library provides a level of abstraction that allows it to be easily used with any database table/column definition.
 
 ## Getting started
