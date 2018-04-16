@@ -12,8 +12,8 @@ PHP 7.0+ | MySQL/MariaDB
 Just include the libraries and you are ready to go.
 
 ## Testing
-Under the folder named *tests* you will find a SQL file and a test script ready to use.
-The SQL file is a dump of a test database which the test script relies on.
+Under the folder named *tests* you will find a SQL file and a test script ready to use.  
+The SQL file is a dump of a test database which the test script relies on.  
 Only run in web browser, not CLI.
 
 ## Built with
