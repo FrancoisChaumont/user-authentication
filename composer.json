@@ -1,0 +1,19 @@
+{
+    "name": "francoischaumont/user-authentication",
+    "description": "Authenticate a user verifying its credentials stored in a database",
+    "authors": [
+        {
+            "name": "Francois Chaumont",
+            "email": "funcois@outlook.com",
+            "role": "developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "FC\\": "src/"
+        }
+    }
+}

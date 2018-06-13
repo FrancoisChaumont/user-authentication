@@ -1,13 +1,16 @@
 <?php
+
+    namespace FC;
+
+    use FC\Db;
+    use FC\Authentication;
+
     /* NOTE: 
         login credentials stored in the database are set like this: 
         login = username / password = username in lowercase (ex: MF / mf)
     */
+    
 // COMMON TO BOTH TESTS
-    // class library import
-        require __DIR__ . '/../src/db.php';
-        require __DIR__ . '/../src/authentication.php';
-
     // variables
         // database connection info 
         $dbname = 'tests_authclass';
