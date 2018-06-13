@@ -105,14 +105,14 @@ class Db {
 
         try {
             $connString = sprintf('mysql:dbname=%s;mysql:charset=%s;host=%s',$this->dbname, $this->charset, $this->host);
-            $this->connection = new PDO($connString, $this->login, $this->password);
-            $this->connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            $this->connection = new \PDO($connString, $this->login, $this->password);
+            $this->connection->setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION);
             // [OPTIONAL] stop the execution on error occurring during prepare
-            // $this->connection->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+            // $this->connection->setAttribute(\PDO::ATTR_EMULATE_PREPARES, false);
 
             $this->connected = true;
         }
-        catch (PDOException $e) {
+        catch (\PDOException $e) {
             $this->errMessage = $e->getMessage();
         }
     }
@@ -128,7 +128,7 @@ class Db {
             $this->statement->execute();
             return true;
         }
-        catch (PDOException $e) {
+        catch (\PDOException $e) {
             $this->errMessage = $e->getMessage();
             return false;
         }

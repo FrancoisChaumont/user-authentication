@@ -5,7 +5,7 @@ namespace FC;
 use FC\Db;
 use FC\Authentication;
 
-require __DIR__ . "/vendor/autoload.php";
+require __DIR__ . "/../vendor/autoload.php";
 
 /* NOTE: 
     login credentials stored in the database are set like this: 
