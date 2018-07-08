@@ -1,4 +1,11 @@
 # User authentication - authenticate a user
+
+![GitHub release](https://img.shields.io/github/release/FrancoisChaumont/user-authentication.svg)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/FrancoisChaumont/user-authentication/issues)
+[![GitHub issues](https://img.shields.io/github/issues/FrancoisChaumont/user-authentication.svg)](https://github.com/FrancoisChaumont/user-authentication/issues)
+[![GitHub stars](https://img.shields.io/github/stars/FrancoisChaumont/user-authentication.svg)](https://github.com/FrancoisChaumont/user-authentication/stargazers)
+![Github All Releases](https://img.shields.io/github/downloads/FrancoisChaumont/user-authentication/total.svg)
+
 PHP library to authenticate users verifying their credentials stored in a database.  
 This library provides a level of abstraction that allows it to be easily used with any database table/column definition.
 
