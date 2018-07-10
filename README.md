@@ -13,10 +13,22 @@ This library provides a level of abstraction that allows it to be easily used wi
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Requirements
-PHP 7.0+ | MySQL/MariaDB 
+PHP 7.1+ | MySQL/MariaDB 
 
 ### Installation
-Just include the libraries and you are ready to go.
+Install this package with composer by simply adding the following to your composer.json file:  
+```
+"repositories": [
+    {
+        "url": "https://github.com/FrancoisChaumont/user-authentication.git",
+        "type": "git"
+    }
+]
+```
+and running the following command:  
+```
+composer require francoischaumont/user-authentication
+```
 
 ## Testing
 Under the folder named *tests* you will find a SQL file and a test script ready to use.  
