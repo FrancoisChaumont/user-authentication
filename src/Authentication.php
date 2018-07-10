@@ -1,8 +1,6 @@
 <?php
 
-namespace FC;
-
-use FC\Db;
+namespace FC\Authentication;
 
 /**
  * Library to attempt user authentication verifying its credentials stored in a database

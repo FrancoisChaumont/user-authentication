@@ -1,6 +1,6 @@
 <?php
 
-namespace FC;
+namespace FC\Authentication;
 
 /**
  * TODO: Add support for other databases than MySQL and MariaDB

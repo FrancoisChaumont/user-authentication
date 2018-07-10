@@ -1,9 +1,6 @@
 <?php
 
-namespace FC;
-
-use FC\Db;
-use FC\Authentication;
+namespace FC\Authentication;
 
 require __DIR__ . "/../vendor/autoload.php";
 
